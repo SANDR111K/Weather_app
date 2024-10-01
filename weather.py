@@ -43,7 +43,7 @@ class App(Tk):
         self.result_label = None  # **Initialize the result label**
 
     def data_getter(self):
-        api_key = "e614cecfae909edd44b1b79e95f35fb7"
+        api_key = "your_api_key"
         base_url = "http://api.openweathermap.org/data/2.5/weather"
         city_name = self.entry_getter()
         params = {'q': city_name, 'appid': api_key, 'units': 'metric'}
